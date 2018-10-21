@@ -1,0 +1,36 @@
+.body1 {
+    /* background-color: black; */
+    background-image: url("Universe-Background.jpg");
+    height: 100%;
+
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.container {
+    background-color:lightblue; 
+    padding: 2%;
+    margin: 10%;
+}
+
+p.thick {
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-title {
+    color: blue;
+}
+#showWins {
+    color: green;
+}
+#showLosses {
+    color: red;
+}
+#current-word {
+    color: navy;
+}
+#guesses-remaining {
+    color: red;
+}
