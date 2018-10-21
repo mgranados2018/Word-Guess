@@ -18,7 +18,8 @@ var wordGame = {
 
         for (var i = 0; i < computerGuessWord.length; i++) {
             // rightGuessWord[i] += "_";
-            rightGuessWord[i] = rightGuessWord[i] + " _ "; 
+            // rightGuessWord[i] = rightGuessWord[i] + "_"; 
+            rightGuessWord[i] = "_";
             // this is another way to write this
         }
 
@@ -122,7 +123,7 @@ var wordGame = {
         //   random picked word. Make sure to lowercase it.
         computerGuessWord = randomWord[Math.floor(Math.random() * 5)].toLocaleLowerCase();
         //3.  call   this.initializeUnderlinePlaceHolderforRightGuessWord() function
-        wordGame.initializeUnderlinePlaceHolderforRightGuessWord();
+        this.initializeUnderlinePlaceHolderforRightGuessWord();
         this.display();
         //4.  call   this.display() function
 
